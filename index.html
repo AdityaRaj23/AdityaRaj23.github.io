@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>BTS</title>
+  <link rel="stylesheet" href="./assets/index.e7962407.css">
+</head>
+<!-- <body class="bg-gradient-to-r from-cyan-500 to-sky-400 rounded-xl"> -->
+  <body class="bg-gray-900 rounded-xl">
+  <header class="text-gray-400 bg-violet-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto md:items-center">
+        <a href="https://www.instagram.com/crimsonaura.in/" target="_blank" class="mr-5 hover:text-white cursor-pointer text-green-400 font-mono text-3xl md:text-2xl">Crimson Aura</a>
+        <a class="inline-flex mx-3 font-semibold hover:text-white cursor-pointer text-lime-200 antialiased font-sans text-2xl md:text-xl animate-pulse hover:animate-none"> Made-by-me
+        </a>
+        
+      </nav>
+      <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+        <img class ="-my-3 w-20 h-16 rounded-lg" src="./assets/c1.8f2865c9.png" alt="">
+        
+      </a>
+      <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+        
+        <a href="https://www.instagram.com/crimsonaura.in/" target="_blank"><button  class=" animate-bounce inline-flex h-10 items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none font-semibold hover:bg-black hover:text-green-400 rounded text-base mt-2 md:mt-0"><span><img class=" inline-flex w-10 h-10" src="data:image/png;base64,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"/></span>Pay Now
+          
+          
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button></a>
+      </div>
+    </div>
+  </header>
+  
+ 
+  
+
+  <section class="text-gray-400 body-font overflow-hidden">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <img alt="ecommerce" class="block rounded-2xl sm:block lg:hidden" src="./assets/p1.f33b6e7f.png" >
+        <img alt="ecommerce" class="hidden md:hidden sm:hidden lg:block lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-2xl " src="./assets/p1.f33b6e7f.png" >
+        
+        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <h2 class="text-sm title-font text-gray-500 tracking-widest">Crimson Aura</h2>
+          <h1 class="text-white text-3xl title-font font-medium mb-1">Product Name</h1>
+          <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi asperiores velit recusandae quaerat maxime natus non iure ut sapiente cumque tenetur consequatur porro rem excepturi, veniam sequi harum unde cum quos ducimus! Eaque.</p>
+          <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5">
+            <div class="flex">
+            </div>
+            <div class="flex ml-6 items-center">
+              <span class="mr-3">Types</span>
+              <div class="relative">
+                
+                <select class="rounded border border-gray-700 focus:ring-2 focus:ring-purple-900 bg-transparent appearance-none py-2 focus:outline-none focus:border-purple-500 text-white pl-3 pr-10" onchange="document.getElementById('sel1').innerHTML=options[selectedIndex].value;">
+                  <option value="&#8377;20 per piece">Non weather proof</option>
+                  <option value="&#8377;30 per piece">Weather proof </option>
+                  
+              </select>
+                <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="title-font font-mono text-2xl text-white" id="sel1">&#8377;20 per piece</div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="text-gray-400 body-font overflow-hidden">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <img alt="ecommerce" class="block rounded-2xl sm:block lg:hidden" src="./assets/p2.2bea064e.png" >
+        <img alt="ecommerce" class="hidden md:hidden sm:hidden lg:block lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-2xl " src="./assets/p2.2bea064e.png" >
+        
+        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <h2 class="text-sm title-font text-gray-500 tracking-widest">Crimson Aura</h2>
+          <h1 class="text-white text-3xl title-font font-medium mb-1">Product Name</h1>
+          <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi asperiores velit recusandae quaerat maxime natus non iure ut sapiente cumque tenetur consequatur porro rem excepturi, veniam sequi harum unde cum quos ducimus! Eaque.</p>
+          <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5">
+            <div class="flex">
+            </div>
+            <div class="flex ml-6 items-center">
+              <span class="mr-3">Types</span>
+              <div class="relative">
+                
+                <select class="rounded border border-gray-700 focus:ring-2 focus:ring-purple-900 bg-transparent appearance-none py-2 focus:outline-none focus:border-purple-500 text-white pl-3 pr-10" onchange="document.getElementById('sel2').innerHTML=options[selectedIndex].value;">
+                  <option value="&#8377;20 per piece">Non weather proof</option>
+                  <option value="&#8377;30 per piece">Weather proof </option>
+                  
+              </select>
+                <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="title-font font-mono text-2xl text-white" id="sel2">&#8377;20 per piece</div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-400  body-font overflow-hidden">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <img alt="ecommerce" class="block rounded-2xl sm:block lg:hidden" src="./assets/p3.2ab1fe11.png" >
+        <img alt="ecommerce" class="hidden md:hidden sm:hidden lg:block lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-2xl " src="./assets/p3.2ab1fe11.png" >
+        
+        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <h2 class="text-sm title-font text-gray-500 tracking-widest">Crimson Aura</h2>
+          <h1 class="text-white text-3xl title-font font-medium mb-1">Product Name</h1>
+          <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi asperiores velit recusandae quaerat maxime natus non iure ut sapiente cumque tenetur consequatur porro rem excepturi, veniam sequi harum unde cum quos ducimus! Eaque.</p>
+          <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5">
+            <div class="flex">
+            </div>
+            <div class="flex ml-6 items-center">
+              <span class="mr-3">Types</span>
+              <div class="relative">
+                
+                <select class="rounded border border-gray-700 focus:ring-2 focus:ring-purple-900 bg-transparent appearance-none py-2 focus:outline-none focus:border-purple-500 text-white pl-3 pr-10" onchange="document.getElementById('sel3').innerHTML=options[selectedIndex].value;">
+                  <option value="&#8377;20 per piece">Non weather proof</option>
+                  <option value="&#8377;30 per piece">Weather proof </option>
+                  
+              </select>
+                <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="title-font font-mono text-2xl text-white" id="sel3">&#8377;20 per piece</div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-400 body-font overflow-hidden">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <img alt="ecommerce" class="block rounded-2xl sm:block lg:hidden" src="./assets/p4.fd9365bb.png" >
+        <img alt="ecommerce" class="hidden md:hidden sm:hidden lg:block lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-2xl " src="./assets/p4.fd9365bb.png" >
+        
+        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <h2 class="text-sm title-font text-gray-500 tracking-widest">Crimson Aura</h2>
+          <h1 class="text-white text-3xl title-font font-medium mb-1">Product Name</h1>
+          <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi asperiores velit recusandae quaerat maxime natus non iure ut sapiente cumque tenetur consequatur porro rem excepturi, veniam sequi harum unde cum quos ducimus! Eaque.</p>
+          <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5">
+            <div class="flex">
+            </div>
+            <div class="flex ml-6 items-center">
+              <span class="mr-3">Types</span>
+              <div class="relative">
+                
+                <select class="rounded border border-gray-700 focus:ring-2 focus:ring-purple-900 bg-transparent appearance-none py-2 focus:outline-none focus:border-purple-500 text-white pl-3 pr-10" onchange="document.getElementById('sel4').innerHTML=options[selectedIndex].value;">
+                  <option value="&#8377;20 per piece">Non weather proof</option>
+                  <option value="&#8377;30 per piece">Weather proof </option>
+                  
+              </select>
+                <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="title-font font-mono text-2xl text-white" id="sel4">&#8377;20 per piece</div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-400  body-font overflow-hidden">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <img alt="ecommerce" class="block rounded-2xl sm:block lg:hidden" src="./assets/p5.36080670.png" >
+        <img alt="ecommerce" class="hidden md:hidden sm:hidden lg:block lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-2xl " src="./assets/p5.36080670.png" >
+        
+        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <h2 class="text-sm title-font text-gray-500 tracking-widest">Crimson Aura</h2>
+          <h1 class="text-white text-3xl title-font font-medium mb-1">Product Name</h1>
+          <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi asperiores velit recusandae quaerat maxime natus non iure ut sapiente cumque tenetur consequatur porro rem excepturi, veniam sequi harum unde cum quos ducimus! Eaque.</p>
+          <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5">
+            <div class="flex">
+            </div>
+            <div class="flex ml-6 items-center">
+              <span class="mr-3">Types</span>
+              <div class="relative">
+                
+                <select class="rounded border border-gray-700 focus:ring-2 focus:ring-purple-900 bg-transparent appearance-none py-2 focus:outline-none focus:border-purple-500 text-white pl-3 pr-10" onchange="document.getElementById('sel5').innerHTML=options[selectedIndex].value;">
+                  <option value="&#8377;20 per piece">Non weather proof</option>
+                  <option value="&#8377;30 per piece">Weather proof </option>
+                
+              </select>
+                <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="title-font font-mono text-2xl text-white" id="sel5">&#8377;20 per piece</div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-400  body-font overflow-hidden">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <img alt="ecommerce" class="block rounded-2xl sm:block lg:hidden" src="./assets/p6.1f49fa09.png" >
+        <img alt="ecommerce" class="hidden md:hidden sm:hidden lg:block lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-2xl " src="./assets/p6.1f49fa09.png" >
+        
+        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <h2 class="text-sm title-font text-gray-500 tracking-widest">Crimson Aura</h2>
+          <h1 class="text-white text-3xl title-font font-medium mb-1">Product Name</h1>
+          <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi asperiores velit recusandae quaerat maxime natus non iure ut sapiente cumque tenetur consequatur porro rem excepturi, veniam sequi harum unde cum quos ducimus! Eaque.</p>
+          <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5">
+            <div class="flex">
+            </div>
+            <div class="flex ml-6 items-center">
+              <span class="mr-3">Types</span>
+              <div class="relative">
+                
+                <select class="rounded border border-gray-700 focus:ring-2 focus:ring-purple-900 bg-transparent appearance-none py-2 focus:outline-none focus:border-purple-500 text-white pl-3 pr-10" onchange="document.getElementById('sel5').innerHTML=options[selectedIndex].value;">
+                  <option value="&#8377;20 per piece">Non weather proof</option>
+                  <option value="&#8377;30 per piece">Weather proof </option>
+                
+              </select>
+                <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="title-font font-mono text-2xl text-white" id="sel5">&#8377;20 per piece</div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-400  body-font overflow-hidden">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <img alt="ecommerce" class="-rotate-45 block rounded-2xl sm:block lg:hidden" src="./assets/p8.162aa6c3.png" >
+        <img alt="ecommerce" class="-rotate-45 hidden md:hidden sm:hidden lg:block lg:w-1/2 w-full lg:h-auto h-64 object-contain object-center rounded-2xl " src="./assets/p8.162aa6c3.png" >
+        
+        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <h2 class="text-sm title-font text-gray-500 tracking-widest">Crimson Aura</h2>
+          <h1 class="text-white text-3xl title-font font-medium mb-1">Product Name</h1>
+          <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi asperiores velit recusandae quaerat maxime natus non iure ut sapiente cumque tenetur consequatur porro rem excepturi, veniam sequi harum unde cum quos ducimus! Eaque.</p>
+          <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5">
+            <div class="flex">
+            </div>
+            <div class="flex ml-6 items-center">
+              <span class="mr-3">Types</span>
+              <div class="relative">
+                
+                <select class="rounded border border-gray-700 focus:ring-2 focus:ring-purple-900 bg-transparent appearance-none py-2 focus:outline-none focus:border-purple-500 text-white pl-3 pr-10" onchange="document.getElementById('sel5').innerHTML=options[selectedIndex].value;">
+                  <option value="&#8377;20 per piece">Non weather proof</option>
+                  <option value="&#8377;30 per piece">Weather proof </option>
+                
+              </select>
+                <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="title-font font-mono text-2xl text-white" id="sel5">&#8377;20 per piece</div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-400  body-font overflow-hidden">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <img alt="ecommerce" class="block rounded-2xl sm:block lg:hidden" src="./assets/p9.6addfdb3.jpg" >
+        <img alt="ecommerce" class="hidden md:hidden sm:hidden lg:block lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded-2xl " src="./assets/p9.6addfdb3.jpg" >
+        
+        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <h2 class="text-sm title-font text-gray-500 tracking-widest">Crimson Aura</h2>
+          <h1 class="text-white text-3xl title-font font-medium mb-1">Product Name</h1>
+          <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi asperiores velit recusandae quaerat maxime natus non iure ut sapiente cumque tenetur consequatur porro rem excepturi, veniam sequi harum unde cum quos ducimus! Eaque.</p>
+          <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5">
+            <div class="flex">
+            </div>
+            <div class="flex ml-6 items-center">
+              <span class="mr-3">Types</span>
+              <div class="relative">
+                
+                <select class="rounded border border-gray-700 focus:ring-2 focus:ring-purple-900 bg-transparent appearance-none py-2 focus:outline-none focus:border-purple-500 text-white pl-3 pr-10" onchange="document.getElementById('sel5').innerHTML=options[selectedIndex].value;">
+                  <option value="&#8377;20 per piece">Non weather proof</option>
+                  <option value="&#8377;30 per piece">Weather proof </option>
+                
+              </select>
+                <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="title-font font-mono text-2xl text-white" id="sel5">&#8377;20 per piece</div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  
+
+  <section class="text-gray-400  body-font overflow-hidden">
+    <!-- <img alt="ecommerce" class="sm:object-scale-down md:object-scale-down lg:hidden" src="p10.jpg" > -->
+    <div class="sm:h-auto md:h-auto container px-5 py-24 mx-auto">
+      <div class="sm:h-auto md:h-auto lg:w-4/5 mx-auto flex flex-wrap">
+        <img alt="ecommerce" class="block rounded-2xl sm:block lg:hidden" src="./assets/p10i.2e74d935.png" >
+        <img alt="ecommerce" class="hidden md:hidden sm:hidden lg:block lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded-2xl " src="./assets/p10i.2e74d935.png" >
+        
+        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <h2 class="text-sm title-font text-gray-500 tracking-widest">Crimson Aura</h2>
+          <h1 class="text-white text-3xl title-font font-medium mb-1">Product Name</h1>
+          <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi asperiores velit recusandae quaerat maxime natus non iure ut sapiente cumque tenetur consequatur porro rem excepturi, veniam sequi harum unde cum quos ducimus! Eaque.</p>
+          <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-800 mb-5">
+            <div class="flex">
+            </div>
+            <div class="flex ml-6 items-center">
+              <span class="mr-3">Types</span>
+              <div class="relative">
+                
+                <select class="rounded border border-gray-700 focus:ring-2 focus:ring-purple-900 bg-transparent appearance-none py-2 focus:outline-none focus:border-purple-500 text-white pl-3 pr-10" onchange="document.getElementById('sel5').innerHTML=options[selectedIndex].value;">
+                  <option value="&#8377;20 per piece">Non weather proof</option>
+                  <option value="&#8377;30 per piece">Weather proof </option>
+                
+              </select>
+                <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="title-font font-mono text-2xl text-white" id="sel5">&#8377;20 per piece</div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+
+<div class="bg-gray-900"><a class="bg-gray-900" href="https://icons8.com/icon/1u4yDfVNMyiw/rupees">Rupees icon by Icons8</a></div>
+
+
+      
+    
+      
+      
+</body>
+</html>
